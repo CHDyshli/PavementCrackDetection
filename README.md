@@ -4,7 +4,13 @@
 
 We developed a highway asphalt pavement dataset containing 10,400 images captured by a highway condition monitoring vehicle with 202,840 labeled crack and sealed crack instances.
 
-Download Dataset. Please pay attention to the disk capacity when downloading.
+Please pay attention to the disk capacity when downloading.
+
+[All images and labels]() contain all the 10400 images and their labels.
+
+[Val]() is just the validation set that  produced the results of our experiments.
+
+
 
 ### Trained Models
 
@@ -25,4 +31,17 @@ On the dataset mentioned above, we trained 13 currently prevalent object detecti
 | [yolov5s](https://github.com/ultralytics/yolov5)             |                                 |
 | [yolov5m](https://github.com/ultralytics/yolov5)             |                                 |
 | [yolov5l](https://github.com/ultralytics/yolov5)             |                                 |
+
+All trained models are saved with checkpoints and could be loaded as:
+
+```python
+import torch
+import torchvision
+# model
+model = torchvision.models.detection.fasterrcnn_mobilenet_v3_large_320_fpn(num_classes=3, box_score_thresh=0.25, box_nms_thresh=0.5)
+# load checkpoint
+checkpoint = torch.load("./path/to/checkpoint.pth", map_location="cpu")
+# load trained weights
+model.load_state_dict(checkpoint["model"])
+```
 
