@@ -45,7 +45,7 @@ checkpoint = torch.load("./path/to/checkpoint.pth", map_location="cpu")
 model.load_state_dict(checkpoint["model"])
 ```
 
-Citation
+### Citation
 ```
 @article{yang2022efficient,
   title={An Efficient Method for Detecting Asphalt Pavement Cracks and Sealed Cracks Based on a Deep Data-Driven Model},
