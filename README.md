@@ -6,9 +6,9 @@ We developed a highway asphalt pavement dataset containing 10,400 images capture
 
 Please pay attention to the disk capacity when downloading.
 
-[All images and labels](https://drive.google.com/file/d/12hEIcr7sL1VHbyX0xdP_aFMX-U5nh0Hj/view?usp=sharing) contain all the 10400 images and their labels.
+[All images and labels](https://chdeducn-my.sharepoint.com/:u:/g/personal/2018024008_chd_edu_cn/EcW64xTdAfJEhK_mDgK5ArMBPF6UQLewa5oILlPXpVHDVg?e=ZdqWRn) contain all the 10400 images and their labels.
 
-[Val](https://drive.google.com/file/d/1L1RfdCN_Os66l5S5EpJFIX2JA_1T4HD9/view?usp=sharing) is just the validation set that  produced the results of our experiments.
+[Val](https://chdeducn-my.sharepoint.com/:u:/g/personal/2018024008_chd_edu_cn/EcZoz4-9QiZEjtVtD26pRl0Bv0NbGmhZ4Z7OskyU27TyHw?e=xA9fHQ) is just the validation set that  produced the results of our experiments.
 
 
 
